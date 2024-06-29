@@ -3,28 +3,17 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Web site created using create-react-app" />
   <title>1Build Widget</title>
-
-  <script type="text/javascript">
-    function initWidget() {
-      window.onebuild.init({
-        key: "%REACT_APP_1BUILD_API_KEY%"
-      })
-    }
-  </script>
-
 </head>
 
-<body onload="initWidget();">
+<body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 
-  <!-- 1build widget -->
-  <button onclick="window.onebuild.open()">Open</button>
+  <!-- onebuild cdn -->
   <script src="https://cdn.1build.com/widget.js"></script>
 </body>
 

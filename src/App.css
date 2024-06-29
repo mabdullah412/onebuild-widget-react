@@ -1,0 +1,40 @@
+.app {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input {
+  padding: 10px;
+  font-family: monospace;
+}
+
+.zipcodes__table {
+  width: 100%;
+  border: 1px solid #777;
+}
+
+.zipcodes__table thead {
+  font-weight: bold;
+  color: #777;
+}
+
+.zipcodes__table {
+  color: #777;
+}
+
+.zipcodes__table tbody tr td:last-child {
+  text-align: right;
+}
